@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_dialog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/backgorund_login">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dialog_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change"
+            android:layout_gravity="center"
+            android:textSize="7pt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dialog_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="#0F00E1"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingLeft="15dp"/>
+        <Button
+            android:id="@+id/dialog_games"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Games"
+            android:gravity="center"
+            android:textColor="#0F00E1"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="15dp"/>
+        <Button
+            android:id="@+id/dialog_button_logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT"
+            android:textSize="10pt"
+            android:textColor="#F01600"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

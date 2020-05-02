@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My_Project</string>
+    <string name="old_pwd"></string>
+    <string name="new_pwd"></string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>
